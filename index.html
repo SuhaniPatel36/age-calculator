@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  
+  <div class="animation-circle">
+    <div class="circ" style="--i:1"> </div>
+  <div class="circ" style="--i:2"> </div>
+  <div class="circ" style="--i:3"></div>
+  <div class="circ" style="--i:4"> </div>
+  <div class="circ" style="--i:5"></div>
+  </div>
+  <div class="container">
+
+    <h1>Age Calculator</h1>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required>
+    <button onclick="calculateAge()">Calculate</button>
+    
+    <div class="all">
+      <span id="result"></span>
+     
+    </div>
+
+    
+  </div>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
